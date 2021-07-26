@@ -1,0 +1,74 @@
+{
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.6.11  2017-06-12 bk=1.3860 VDI=40 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port button_reset_0 -pg 1 -y 830 -defaultsOSRD
+preplace port lcd_rs_0 -pg 1 -y 100 -defaultsOSRD
+preplace port lcd_rst_0 -pg 1 -y 140 -defaultsOSRD
+preplace port lcd_wr_0 -pg 1 -y 120 -defaultsOSRD
+preplace port dp_0 -pg 1 -y 840 -defaultsOSRD
+preplace port sys_clock -pg 1 -y 700 -defaultsOSRD
+preplace port rxd_0 -pg 1 -y 980 -defaultsOSRD
+preplace port resetn_0 -pg 1 -y 620 -defaultsOSRD
+preplace port csky_jtag_0 -pg 1 -y 500 -defaultsOSRD
+preplace port lcd_cs_0 -pg 1 -y 80 -defaultsOSRD
+preplace port txd_0 -pg 1 -y 990 -defaultsOSRD
+preplace port lcd_reset_0 -pg 1 -y 80 -defaultsOSRD
+preplace port DDR2_0 -pg 1 -y 390 -defaultsOSRD
+preplace portBus segs_0 -pg 1 -y 820 -defaultsOSRD
+preplace portBus lcd_data_0 -pg 1 -y 60 -defaultsOSRD
+preplace portBus an_0 -pg 1 -y 800 -defaultsOSRD
+preplace portBus leds_0 -pg 1 -y 780 -defaultsOSRD
+preplace portBus wait_60_0 -pg 1 -y 790 -defaultsOSRD
+preplace inst clk_wiz -pg 1 -lvl 2 -y 690 -defaultsOSRD
+preplace inst axi_bram_ctrl_0_bram -pg 1 -lvl 6 -y 640 -defaultsOSRD
+preplace inst mig_7series_0 -pg 1 -lvl 5 -y 440 -defaultsOSRD
+preplace inst axi_smc -pg 1 -lvl 4 -y 650 -defaultsOSRD
+preplace inst CK807_axi_wrap0_0 -pg 1 -lvl 3 -y 520 -defaultsOSRD
+preplace inst rst_mig_7series_0_81M -pg 1 -lvl 4 -y 90 -defaultsOSRD
+preplace inst axi_gpio_0 -pg 1 -lvl 5 -y 810 -defaultsOSRD
+preplace inst uart_axi_0 -pg 1 -lvl 5 -y 990 -defaultsOSRD
+preplace inst rst_clk_wiz_100M -pg 1 -lvl 3 -y 670 -defaultsOSRD
+preplace inst axi_bram_ctrl_0 -pg 1 -lvl 5 -y 640 -defaultsOSRD
+preplace inst LCD_v1_0_0 -pg 1 -lvl 1 -y 110 -defaultsOSRD
+preplace netloc csky_jtag_0_1 1 0 3 NJ 500 NJ 500 NJ
+preplace netloc wait_60_0_1 1 0 5 NJ 790 NJ 790 NJ 790 NJ 790 NJ
+preplace netloc axi_gpio_0_segs 1 5 2 NJ 820 NJ
+preplace netloc clk_wiz_clk_out2 1 2 3 520 450 NJ 450 NJ
+preplace netloc mig_7series_0_mmcm_locked 1 3 3 940 230 NJ 230 1630
+preplace netloc clk_wiz_locked 1 2 1 N
+preplace netloc mig_7series_0_DDR2 1 5 2 NJ 390 NJ
+preplace netloc axi_smc_M02_AXI 1 4 1 1300
+preplace netloc axi_smc_M01_AXI 1 4 1 1290
+preplace netloc LCD_v1_0_0_lcd_wr 1 1 6 NJ 120 NJ 120 880J 200 1310J 120 NJ 120 NJ
+preplace netloc axi_bram_ctrl_0_BRAM_PORTA 1 5 1 NJ
+preplace netloc axi_smc_M00_AXI 1 4 1 N
+preplace netloc resetn_0_1 1 0 5 N 620 330 620 530 430 NJ 430 NJ
+preplace netloc LCD_v1_0_0_lcd_rst 1 1 6 330J 220 NJ 220 NJ 220 NJ 220 NJ 220 1890J
+preplace netloc sys_clock_1 1 0 2 NJ 700 N
+preplace netloc axi_gpio_0_leds 1 5 2 NJ 780 NJ
+preplace netloc mig_7series_0_ui_clk 1 3 3 920 340 NJ 340 1610
+preplace netloc uart_axi_0_txd 1 5 2 NJ 990 NJ
+preplace netloc rxd_0_1 1 0 5 NJ 980 NJ 980 NJ 980 NJ 980 NJ
+preplace netloc rst_mig_7series_0_81M_peripheral_aresetn 1 4 1 1320
+preplace netloc LCD_v1_0_0_m00_axi 1 1 3 NJ 40 NJ 40 890
+preplace netloc LCD_v1_0_0_lcd_data 1 1 6 330J 0 NJ 0 NJ 0 NJ 0 NJ 0 1890J
+preplace netloc LCD_v1_0_0_lcd_rs 1 1 6 NJ 100 NJ 100 900J 190 1300J 100 NJ 100 NJ
+preplace netloc lcd_reset_0_1 1 0 1 N
+preplace netloc axi_gpio_0_an 1 5 2 NJ 800 NJ
+preplace netloc mig_7series_0_ui_clk_sync_rst 1 3 3 930 210 NJ 210 1620
+preplace netloc button_reset_0_1 1 0 5 0J 810 NJ 810 NJ 810 NJ 810 NJ
+preplace netloc axi_smc_M03_AXI 1 4 1 1290
+preplace netloc CK807_axi_wrap0_0_CK807_AXI 1 3 1 880
+preplace netloc LCD_v1_0_0_lcd_cs 1 1 6 NJ 80 NJ 80 910J 180 1290J 80 NJ 80 NJ
+preplace netloc axi_gpio_0_dp 1 5 2 NJ 840 NJ
+preplace netloc rst_clk_wiz_100M_peripheral_aresetn 1 0 5 10 770 N 770 N 770 930 750 1320
+preplace netloc clk_wiz_clk_out1 1 0 5 0 540 N 540 510 760 890 760 1310
+levelinfo -pg 1 -20 170 420 710 1120 1470 1760 1910 -top -10 -bot 1070
+",
+}
+{
+   da_axi4_cnt: "12",
+   da_board_cnt: "3",
+   da_bram_cntlr_cnt: "1",
+}
